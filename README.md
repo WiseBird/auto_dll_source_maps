@@ -1,1 +1,1 @@
-Demonstration of a problem with AutoDll Webpack Plugin. When the plugin is used 
+Demonstration of a problem with AutoDll Webpack Plugin. Source maps are not created for dll bundle.
