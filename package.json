@@ -1,0 +1,20 @@
+{
+  "name": "test",
+  "version": "0.0.1",
+  "dependencies": {
+    "jquery": "3.2.1"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "2.30.1",
+    "expose-loader": "0.7.3",
+    "autodll-webpack-plugin": "0.3.6",
+    "webpack": "3.8.1",
+    "webpack-dev-server": "2.9.2"
+  },
+  "scripts": {
+    "build": "webpack",
+    "build:dll": "webpack --env.dll",
+    "start": "webpack-dev-server",
+    "start:dll": "webpack-dev-server --env.dll"
+  }
+}

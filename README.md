@@ -1,0 +1,1 @@
+Demonstration of a problem with AutoDll Webpack Plugin. When the plugin is used 
