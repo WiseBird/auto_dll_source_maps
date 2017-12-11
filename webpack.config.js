@@ -20,14 +20,17 @@ module.exports = (env = {}) => {
             }),
             ...(env.dll ? [new AutoDllPlugin({
                 inject: true,
+                inherit: true,
                 filename: '[name]_[hash].js',
-                debug: false,
+                debug: true,
                 entry: {
                     vendor_dll: ['jquery']
                 },
             })] : []),
         ],
-        devtool: "source-maps",
+        devtool: 'cheap-module-source-map',
+        // devtool: 'cheap-source-map',
+        // devtool: 'source-map',
         devServer: {
             contentBase: path.join(__dirname, "bundle")
         }

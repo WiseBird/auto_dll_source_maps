@@ -1,1 +1,1 @@
-Demonstration of a problem with AutoDll Webpack Plugin. Source maps are not created for dll bundle.
+Demonstration of a problem with AutoDll Webpack Plugin. Chrome throws `Unexpected token` when parsing source maps.
